@@ -35,3 +35,8 @@ rtk proxy <cmd>       # Run raw (no filtering, for debugging)
 ## Why
 
 RTK filters and compresses command output before it reaches the LLM context, saving 60-90% tokens on common operations. Always use `rtk <cmd>` instead of raw commands.
+
+## Исключения (PowerShell & Raw CLI)
+
+* **Встроенные командлеты PowerShell**: Префикс `rtk` предназначен для внешних исполняемых утилит (`git`, `cargo`, `pytest`, `ruff`, `python`, `docker`, `gh`, `npm`, `grep`, `find`). **НЕ используйте `rtk`** перед встроенными командлетами PowerShell (`Select-String`, `Get-ChildItem`, `Get-Content`, `Test-Path`, `Set-Content`), так как PowerShell не сможет передать их внешнему процессу.
+* **Неискажённый вывод (Raw Data)**: Если требуется точный дамп без сжатия строк (JSON-контракты, сырые diff), используйте `rtk proxy <cmd>`.

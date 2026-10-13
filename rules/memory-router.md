@@ -23,13 +23,14 @@ description: "Маршрутизатор памяти: куда сохранят
 
 | Тип знания | Инструмент / место | Пример |
 | :--- | :--- | :--- |
-| Сессии, решения, «почему», гочи, уроки | **agentmemory** (`memory_save`, `memory_lesson_save`) | «выбрали курсорную пагинацию, потому что offset-скан тормозит после 100k строк» |
-| Активы: репозитории, железо, сервисы, где что лежит | **INVENTORY.md** (только точечный поиск! см. ниже) + краткая запись в agentmemory | новый репозиторий, новый сервис на сервере |
-| Статьи/веб-материалы | bridge `memory` (action=save/recall, topic) | «сохрани статью про RRF» |
-| Книги (FTS5, Linux-сервер) | `book_search` | «найди в книгах про байесовские методы» |
+| Сессии, решения, «почему», гочи, глобальные уроки | **agentmemory** (`memory_save`, `memory_lesson_save`) | «выбрали курсорную пагинацию, потому что offset-скан тормозит после 100k строк» |
+| Активы: репозитории, железо, сервисы, где что лежит | **INVENTORY.md** (точечный поиск!) + слот `project_registry` в agentmemory | новый репозиторий, новый сервис на сервере |
+| Проверенные факты и уроки AI_Agent (локальный RAG) | **bridge `memory`** (`action`: `save`, `save_decision`, `save_lesson`, `recall`, `verify`, `list`; `memory_type`: `fact`\|`decision`\|`lesson`\|`reference`; `confidence`: 0.1..1.0) | фундаментальные уроки и факты для системного промпта `orchestrator.py` (`memory.json`) |
+| Ранее изученные статьи, репозитории, ссылки | **`search_saved_links`** (`saved_links.json`) | «найди сохраненные ссылки по RRF или fastembed» |
+| Книги (локальная библиотека 424 книг) | **`book_search`** (быстрый поиск фрагментов FTS5 в `books_index.db`, <50 мс) и **`ask_books`** (RAG-ответ с цитатами через Ollama) | `book_search`: «найди в книгах про iptables» / `ask_books`: «как работает TCP handshake» |
 | Сметы/светотехника (Smart Light AI) | `_AI_CACHE\memory\rules_and_preferences.json` + `00_Ответы_ИИ\TEAM_CHAT.md` | стандарты IEC/фотометрия, логистика CMR, матрица производителей |
 | Компактный реестр проектов/железа | Слот `project_registry` (agentmemory, global) | быстрый контекст для любых задач |
-| Код и архитектура текущего репо | `graphify` (query/path/explain) + `docs/codemap/` | «кто вызывает e2e gate» |
+| Код и архитектура текущего репо | `graphify` (query/path/explain) + `docs/codemap/` (если настроен) | «кто вызывает e2e gate» |
 
 ## 4. Возвращение к работе и обзоры
 * «Где мы остановились / продолжим» → `handoff` (или `memory_sessions` → `memory_recall`).

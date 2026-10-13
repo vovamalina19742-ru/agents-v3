@@ -44,15 +44,15 @@ description: "Дистиллированные когнитивные опера
 ---
 
 ## Расположение модулей
-Все подробные профили с цитатами, кейсами и эвристиками находятся в папках:
-* `andrej-karpathy-perspective/SKILL.md`
-* `elon-musk-perspective/SKILL.md`
-* `munger-perspective/SKILL.md`
-* `taleb-perspective/SKILL.md`
-* `feynman-perspective/SKILL.md`
-* `steve-jobs-perspective/SKILL.md`
-* `naval-perspective/SKILL.md`
-* `ilya-sutskever-perspective/SKILL.md`
-* `paul-graham-perspective/SKILL.md`
-* `mrbeast-perspective/SKILL.md`
-* `zhang-yiming-perspective/SKILL.md`
+Все подробные профили с цитатами, кейсами и эвристиками находятся в файлах `PERSONA.md`:
+* `andrej-karpathy-perspective/PERSONA.md`
+* `elon-musk-perspective/PERSONA.md`
+* `munger-perspective/PERSONA.md`
+* `taleb-perspective/PERSONA.md`
+* `feynman-perspective/PERSONA.md`
+* `steve-jobs-perspective/PERSONA.md`
+* `naval-perspective/PERSONA.md`
+* `ilya-sutskever-perspective/PERSONA.md`
+* `paul-graham-perspective/PERSONA.md`
+* `mrbeast-perspective/PERSONA.md`
+* `zhang-yiming-perspective/PERSONA.md`

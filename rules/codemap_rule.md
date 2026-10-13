@@ -8,7 +8,10 @@ description: "Codemap Driven Development: перед правкой кода с�
 
 ## 1. PRE-CHANGE VERIFICATION CHECKLIST (Anti-Regression Guardrail)
 
-At the start of **every code-changing task**, agents and developers MUST compare the current repository state with `docs/codemap/codemap.lock`.
+> [!NOTE]
+> **Условие применения (Applicability Check):** Данное правило применяется **ТОЛЬКО** к тем проектам/репозиториям, где уже настроен codemap (присутствуют `docs/codemap/codemap.lock`, `docs/codemap/codemap.json` или `scripts/generate_codemap.py`). Если в текущем проекте (например, `D:\AI_Agent`) используется `graphify` либо каталога `docs/codemap/` нет, **НЕ пытайтесь** вызывать `python scripts/generate_codemap.py` и пропустите этот шаг.
+
+At the start of **every code-changing task** in repositories configured with codemap, agents and developers MUST compare the current repository state with `docs/codemap/codemap.lock`.
 
 Before modifying any module or function, inspect `docs/codemap/codemap.json` to answer three mandatory questions:
 1. **What calls it?** (Upstream callers & dependencies)
