@@ -1,0 +1,20 @@
+{
+  "name": "skill-subdomain-recon",
+  "version": "1.0.0",
+  "description": "Sublist3r & Certificate Transparency-inspired passive subdomain intelligence, digital perimeter mapping, and CDN edge node discovery.",
+  "success_rate": 1.0,
+  "last_verified_date": "2026-09-07",
+  "author": "Antigravity Team",
+  "capabilities": [
+    "passive_certificate_transparency_scraping",
+    "multithreaded_dns_resolution",
+    "http_https_port_probing",
+    "smart_asset_categorization",
+    "html_visual_perimeter_dashboard"
+  ],
+  "associated_projects": [
+    "sentinel-osint",
+    "media-downloader",
+    "SmartphoneMonitor"
+  ]
+}

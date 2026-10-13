@@ -1,0 +1,250 @@
+{
+  "flags": [
+    "Количество спотов для треков (Living, Dormitor, Antreu, Bucatarie) не зафиксировано в плане (заложено нормативно, требуется подтверждение дизайнера).",
+    "Мокрая зона 'Baie': подтвердить тип решения (лента IP65 в нише vs споты/модули IP44–IP65).",
+    "Влажная зона 'Spalatorie' заявлена как IP20 — заменить на IP44+/IP65.",
+    "Мокрая зона 'Spalatorie': подтвердить тип решения (лента IP65 в нише vs споты/модули IP44–IP65).",
+    "Требование к диммированию и flicker-free: зафиксировать протокол управления (DALI / 1-10V / TRIAC) и пульсации PstLM ≤ 1.0, SVM ≤ 0.4."
+  ],
+  "track_bom": {
+    "bars_2m_total": 5,
+    "bars_3m_total": 1,
+    "total_purchased_m": 13.0,
+    "power_feeds": 4,
+    "end_caps": 8,
+    "straight_joints": 2,
+    "corners_90": 0,
+    "total_spots": 20,
+    "total_spots_load_w": 300.0,
+    "driver_48v_min_w": 405.0,
+    "drivers_48v_plan": [
+      {
+        "rating_w": 200,
+        "qty": 3
+      }
+    ],
+    "details": [
+      {
+        "name": "Living",
+        "length_m": 4.6,
+        "bars_2m": 1,
+        "bars_3m": 1,
+        "purchased_m": 5.0,
+        "waste_m": 0.4,
+        "joints": 1,
+        "corners_90": 0,
+        "spots_count": 8
+      },
+      {
+        "name": "Dormitor",
+        "length_m": 4.0,
+        "bars_2m": 2,
+        "bars_3m": 0,
+        "purchased_m": 4.0,
+        "waste_m": 0.0,
+        "joints": 1,
+        "corners_90": 0,
+        "spots_count": 6
+      },
+      {
+        "name": "Antreu",
+        "length_m": 2.0,
+        "bars_2m": 1,
+        "bars_3m": 0,
+        "purchased_m": 2.0,
+        "waste_m": 0.0,
+        "joints": 0,
+        "corners_90": 0,
+        "spots_count": 3
+      },
+      {
+        "name": "Bucatarie",
+        "length_m": 2.0,
+        "bars_2m": 1,
+        "bars_3m": 0,
+        "purchased_m": 2.0,
+        "waste_m": 0.0,
+        "joints": 0,
+        "corners_90": 0,
+        "spots_count": 3
+      }
+    ]
+  },
+  "led_bom": {
+    "total_net_m": 54.6,
+    "total_reels_5m": 13,
+    "total_purchased_m": 65.0,
+    "total_profile_m": 57.33,
+    "details": [
+      {
+        "room": "Antreu+Bucatarie",
+        "length_m": 14.5,
+        "ip": "IP20",
+        "reels_5m": 3,
+        "load_w": 139.2,
+        "driver_24v_w": 200,
+        "delta_u_pct": 8.18,
+        "delta_u_ok": false,
+        "profile_calc_m": 15.23
+      },
+      {
+        "room": "Living",
+        "length_m": 18.4,
+        "ip": "IP20",
+        "reels_5m": 4,
+        "load_w": 176.6,
+        "driver_24v_w": 240,
+        "delta_u_pct": 13.17,
+        "delta_u_ok": false,
+        "profile_calc_m": 19.32
+      },
+      {
+        "room": "Dormitor",
+        "length_m": 16.0,
+        "ip": "IP20",
+        "reels_5m": 4,
+        "load_w": 153.6,
+        "driver_24v_w": 240,
+        "delta_u_pct": 9.96,
+        "delta_u_ok": false,
+        "profile_calc_m": 16.8
+      },
+      {
+        "room": "Baie",
+        "length_m": 3.0,
+        "ip": "IP65",
+        "reels_5m": 1,
+        "load_w": 28.8,
+        "driver_24v_w": 50,
+        "delta_u_pct": 0.35,
+        "delta_u_ok": true,
+        "profile_calc_m": 3.15
+      },
+      {
+        "room": "Spalatorie",
+        "length_m": 2.7,
+        "ip": "IP20",
+        "reels_5m": 1,
+        "load_w": 25.9,
+        "driver_24v_w": 50,
+        "delta_u_pct": 0.28,
+        "delta_u_ok": true,
+        "profile_calc_m": 2.84
+      }
+    ]
+  },
+  "photometry": [
+    {
+      "room": "Living",
+      "area_sqm": 25.2,
+      "e_calc": 666.7,
+      "e_norm": 300.0,
+      "status": "да",
+      "phi_installed": 30000,
+      "phi_needed": 13500,
+      "deficit_lumens": 0,
+      "added_spots_15w": 0
+    },
+    {
+      "room": "Dormitor",
+      "area_sqm": 19.8,
+      "e_calc": 509.1,
+      "e_norm": 200.0,
+      "status": "да",
+      "phi_installed": 18000,
+      "phi_needed": 7071,
+      "deficit_lumens": 0,
+      "added_spots_15w": 0
+    },
+    {
+      "room": "Antreu+Bucatarie",
+      "area_sqm": 19.3,
+      "e_calc": 783.4,
+      "e_norm": 500.0,
+      "status": "да",
+      "phi_installed": 27000,
+      "phi_needed": 17232,
+      "deficit_lumens": 0,
+      "added_spots_15w": 0
+    },
+    {
+      "room": "Baie",
+      "area_sqm": 4.7,
+      "e_calc": 500.4,
+      "e_norm": 300.0,
+      "status": "да",
+      "phi_installed": 4200,
+      "phi_needed": 2517,
+      "deficit_lumens": 0,
+      "added_spots_15w": 0
+    },
+    {
+      "room": "Spalatorie",
+      "area_sqm": 5.1,
+      "e_calc": 307.5,
+      "e_norm": 200.0,
+      "status": "да",
+      "phi_installed": 2800,
+      "phi_needed": 1821,
+      "deficit_lumens": 0,
+      "added_spots_15w": 0
+    }
+  ],
+  "quote_audit": [
+    {
+      "name": "Хлысты трека 2 м",
+      "calc": 5,
+      "quote": 5,
+      "delta": 0,
+      "match": true
+    },
+    {
+      "name": "Хлысты трека 3 м",
+      "calc": 1,
+      "quote": 1,
+      "delta": 0,
+      "match": true
+    },
+    {
+      "name": "Вводы питания 48V",
+      "calc": 4,
+      "quote": 4,
+      "delta": 0,
+      "match": true
+    },
+    {
+      "name": "Заглушки трека",
+      "calc": 8,
+      "quote": 8,
+      "delta": 0,
+      "match": true
+    },
+    {
+      "name": "Прямые соединители трека",
+      "calc": 2,
+      "quote": 0,
+      "delta": -2,
+      "match": false
+    },
+    {
+      "name": "Споты трека 15W",
+      "calc": 20,
+      "quote": 20,
+      "delta": 0,
+      "match": true
+    },
+    {
+      "name": "LED-лента (бобины 5 м)",
+      "calc": 13,
+      "quote": 15,
+      "delta": 2,
+      "match": false
+    }
+  ],
+  "extras": [
+    {
+      "name": "Заглушки профиля CABI12 (уп. 20 шт)",
+      "quantity": 1
+    }
+  ]
+}

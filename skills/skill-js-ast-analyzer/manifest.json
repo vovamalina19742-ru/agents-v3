@@ -1,0 +1,20 @@
+{
+  "name": "skill-js-ast-analyzer",
+  "version": "1.0.0",
+  "description": "BishopFox/jsluice-inspired JavaScript & TypeScript AST static analyzer for endpoint discovery, shadow API mapping, media stream extraction, and high-entropy secret detection.",
+  "success_rate": 1.0,
+  "last_verified_date": "2026-09-07",
+  "author": "Antigravity Team",
+  "capabilities": [
+    "ast_concatenation_reconstruction",
+    "template_literal_resolution",
+    "media_stream_m3u8_mpd_detection",
+    "shannon_entropy_secret_filtering",
+    "html_visual_audit_reporting"
+  ],
+  "associated_projects": [
+    "media-downloader",
+    "sentinel-osint",
+    "SmartphoneMonitor"
+  ]
+}

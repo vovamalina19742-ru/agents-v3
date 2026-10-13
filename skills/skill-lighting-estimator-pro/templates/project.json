@@ -1,0 +1,29 @@
+{
+  "project_name": "Apartament Chisinau 74.1 m2 - Piese de iluminat",
+  "height_m": 3.60,
+  "cct_k": 3000,
+  "min_cri": 90,
+  "tracks": [
+    { "name": "Living", "length_m": 4.6, "has_corner_90": false, "spots_count": 0 },
+    { "name": "Dormitor", "length_m": 4.0, "has_corner_90": false, "spots_count": 0 },
+    { "name": "Antreu", "length_m": 2.0, "has_corner_90": false, "spots_count": 0 },
+    { "name": "Bucatarie", "length_m": 2.0, "has_corner_90": false, "spots_count": 0 }
+  ],
+  "rooms_led": [
+    { "room": "Antreu+Bucatarie", "length_m": 14.5, "power_w_per_m": 9.6, "ip_rating": "IP20", "is_cove_or_step": false },
+    { "room": "Living", "length_m": 18.4, "power_w_per_m": 9.6, "ip_rating": "IP20", "is_cove_or_step": true },
+    { "room": "Dormitor", "length_m": 16.0, "power_w_per_m": 9.6, "ip_rating": "IP20", "is_cove_or_step": false },
+    { "room": "Baie", "length_m": 3.0, "power_w_per_m": 9.6, "ip_rating": "IP65", "is_cove_or_step": true },
+    { "room": "Spalatorie", "length_m": 2.7, "power_w_per_m": 9.6, "ip_rating": "IP20", "is_cove_or_step": false }
+  ],
+  "rooms_photometry": [
+    { "room": "Living", "area_sqm": 25.2, "target_lux": 300.0, "installed_lumens": 30000 },
+    { "room": "Dormitor", "area_sqm": 19.8, "target_lux": 200.0, "installed_lumens": 18000 },
+    { "room": "Antreu+Bucatarie", "area_sqm": 19.3, "target_lux": 500.0, "installed_lumens": 27000 },
+    { "room": "Baie", "area_sqm": 4.7, "target_lux": 300.0, "installed_lumens": 4200 },
+    { "room": "Spalatorie", "area_sqm": 5.1, "target_lux": 200.0, "installed_lumens": 2800 }
+  ],
+  "extras": [
+    { "name": "Заглушки профиля CABI12 (уп. 20 шт)", "quantity": 1 }
+  ]
+}

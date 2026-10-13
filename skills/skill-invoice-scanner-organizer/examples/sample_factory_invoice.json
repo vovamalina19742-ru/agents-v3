@@ -1,0 +1,67 @@
+{
+  "invoice_no": "INV-2026-IT-9812",
+  "supplier": "Lombardo S.p.a. & Nova Luce Lighting Group",
+  "date": "2026-09-29",
+  "currency": "EUR",
+  "logistics": {
+    "cmr_colli": 4,
+    "truck": "C LK 421 / TR 890",
+    "incoterms": "EXW Villongo"
+  },
+  "items": [
+    {
+      "article": "36.0002.03",
+      "name": "Insight Profile 1 Recessed, L=2000mm, 48V/DC",
+      "qty": 3,
+      "unit_price": 96.67,
+      "net_kg": 5.4,
+      "gross_kg": 6.2,
+      "carton_no": "1"
+    },
+    {
+      "article": "36.0003.03",
+      "name": "Insight Profile 1 Recessed, L=3000mm, 48V/DC",
+      "qty": 2,
+      "unit_price": 145.0,
+      "net_kg": 5.8,
+      "gross_kg": 6.7,
+      "carton_no": "1"
+    },
+    {
+      "article": "36.0021.03",
+      "name": "L-connector mechanic & electric 90° for Insight",
+      "qty": 1,
+      "unit_price": 35.0,
+      "net_kg": 0.35,
+      "gross_kg": 0.45,
+      "carton_no": "2"
+    },
+    {
+      "article": "89200X",
+      "name": "Driver 48V 200W IP20 MeanWell / Smart Light",
+      "qty": 2,
+      "unit_price": 65.0,
+      "net_kg": 1.4,
+      "gross_kg": 1.6,
+      "carton_no": "2"
+    },
+    {
+      "article": "9540282",
+      "name": "Бра настенное DORIS 17 cm Black RAL9005",
+      "qty": 4,
+      "unit_price": 58.7,
+      "net_kg": 3.2,
+      "gross_kg": 3.9,
+      "carton_no": "3"
+    },
+    {
+      "article": "9695324",
+      "name": "Торшер напольный OPHELIA Black 27W",
+      "qty": 1,
+      "unit_price": 207.03,
+      "net_kg": 6.5,
+      "gross_kg": 7.8,
+      "carton_no": "4"
+    }
+  ]
+}

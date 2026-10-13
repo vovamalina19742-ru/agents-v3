@@ -1,0 +1,11 @@
+{
+  "track_bars_2m": 5,
+  "track_bars_3m": 1,
+  "track_feeds": 4,
+  "track_endcaps": 8,
+  "track_straight_joints": 0,
+  "track_spots_15w": 20,
+  "led_reels_5m": 15,
+  "driver_48v_total_w": 475,
+  "driver_24v_total_w": 820
+}

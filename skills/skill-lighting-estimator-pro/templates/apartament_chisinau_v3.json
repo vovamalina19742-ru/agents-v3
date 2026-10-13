@@ -1,0 +1,76 @@
+{
+  "passport": {
+    "name": "Apartament Chișinău (A.01–A.05)",
+    "client": "Andreea",
+    "area_sqm": 74.1,
+    "heights": "H = 2.90m / 3.60m",
+    "manager": "Andrei Mahotchin (Smart Light, Chișinău)",
+    "date": "29.09.2026"
+  },
+  "cct_k": 3000,
+  "min_cri": 90,
+  "tracks": [
+    { "name": "Open Space (Кухня)", "length_m": 2.0, "has_corner_90": false, "spots_count": 4 },
+    { "name": "Dormitor (Спальня)", "length_m": 2.0, "has_corner_90": false, "spots_count": 4 },
+    { "name": "Hol Intrare (Коридор)", "length_m": 8.0, "has_corner_90": true, "spots_count": 9 }
+  ],
+  "downlights_count": 13,
+  "rooms_led": [
+    { "room": "Baie (Потолок Barisol)", "length_m": 3.90, "mount": "recessed", "ip_rating": "IP65", "cable_to_driver_m": 6.0, "cable_sqmm": 1.5 },
+    { "room": "Baie (Полки мебели)", "length_m": 3.00, "mount": "slim", "ip_rating": "IP65", "cable_to_driver_m": 5.0, "cable_sqmm": 1.5 },
+    { "room": "Hol Intrare (Теневой потолок)", "length_m": 1.60, "mount": "recessed", "ip_rating": "IP20", "cable_to_driver_m": 4.0, "cable_sqmm": 1.5 },
+    { "room": "Open Space (Теневой потолок)", "length_m": 1.06, "mount": "recessed", "ip_rating": "IP20", "cable_to_driver_m": 8.0, "cable_sqmm": 1.5 },
+    { "room": "Кухня (Под шкафами гарнитура)", "length_m": 4.48, "mount": "slim", "ip_rating": "IP20", "cable_to_driver_m": 7.0, "cable_sqmm": 1.5 },
+    { "room": "Библиотека (Стойки)", "length_m": 9.00, "mount": "slim", "ip_rating": "IP20", "cable_to_driver_m": 10.0, "cable_sqmm": 1.5 },
+    { "room": "Панель ТВ (Ниши)", "length_m": 9.38, "mount": "slim", "ip_rating": "IP20", "cable_to_driver_m": 11.0, "cable_sqmm": 1.5 },
+    { "room": "Винный шкаф (Полки)", "length_m": 2.90, "mount": "slim", "ip_rating": "IP20", "cable_to_driver_m": 8.0, "cable_sqmm": 1.5 },
+    { "room": "Шкаф спальни (Полки)", "length_m": 10.08, "mount": "slim", "ip_rating": "IP20", "cable_to_driver_m": 12.0, "cable_sqmm": 1.5 }
+  ],
+  "designer_fixtures": [
+    { "article": "9540282", "name": "Бра настенное DORIS 17 cm Black RAL9005", "brand": "Nova Luce", "color": "black", "cct": "3000", "ip": "IP20", "qty": 4, "price_eur": 58.70 },
+    { "article": "9081806", "name": "Бра для чтения GRATTA Black L:60.5cm", "brand": "Nova Luce", "color": "black", "cct": "3000", "ip": "IP20", "qty": 1, "price_eur": 68.58 },
+    { "article": "9580671", "name": "Подвес DIONA 40 cm Black/White 3000K", "brand": "Nova Luce", "color": "black", "cct": "3000", "ip": "IP20", "qty": 1, "price_eur": 172.29 },
+    { "article": "9695355", "name": "Фасадное бра TASK 40 cm Black IP65", "brand": "Nova Luce", "color": "black", "cct": "3000", "ip": "IP65", "qty": 3, "price_eur": 95.76 },
+    { "article": "9215803", "name": "Бра для ванной MISTY Black IP44 (3000K)", "brand": "Nova Luce", "color": "black", "cct": "3000", "ip": "IP44", "qty": 1, "price_eur": 75.78 },
+    { "article": "9019790", "name": "Настольная лампа LENTO Travertine/Black 5W", "brand": "Nova Luce", "color": "black", "cct": "3000", "ip": "IP20", "qty": 1, "price_eur": 147.60 },
+    { "article": "9695324", "name": "Торшер напольный OPHELIA Black 27W", "brand": "Nova Luce", "color": "black", "cct": "3000", "ip": "IP20", "qty": 1, "price_eur": 207.03 },
+    { "article": "9060281", "name": "Линейный подвес BRILLIA Black L:161cm (3000K)", "brand": "Nova Luce", "color": "black", "cct": "3000", "ip": "IP20", "qty": 1, "price_eur": 184.50 },
+    { "article": "VIBIA-FLAMINGO", "name": "Дизайнерский подвесной светильник Vibia Flamingo mini", "brand": "Vibia", "color": "black", "cct": "3000", "ip": "IP20", "qty": 1, "price_eur": 380.00 }
+  ],
+  "rooms_photometry": [
+    {
+      "room": "Open Space (Гостиная/Кухня)",
+      "area_sqm": 35.0,
+      "height_m": 2.9,
+      "type": "living",
+      "fixtures": [
+        { "name": "Споты трека 15W", "lumens": 5400, "is_cove": false },
+        { "name": "Встраиваемые даунлайты 7W", "lumens": 6500, "is_cove": false },
+        { "name": "Подвес Vibia Flamingo", "lumens": 1500, "is_cove": false },
+        { "name": "Подсветка кухни и Barisol", "lumens": 5000, "is_cove": true }
+      ]
+    },
+    {
+      "room": "Dormitor (Спальня)",
+      "area_sqm": 19.8,
+      "height_m": 2.9,
+      "type": "bedroom",
+      "fixtures": [
+        { "name": "Споты трека 15W", "lumens": 5400, "is_cove": false },
+        { "name": "Подвес Diona", "lumens": 2500, "is_cove": false },
+        { "name": "Подсветка шкафа спальни", "lumens": 9600, "is_cove": true }
+      ]
+    },
+    {
+      "room": "Baie (Санузел)",
+      "area_sqm": 4.7,
+      "height_m": 2.9,
+      "type": "bathroom",
+      "fixtures": [
+        { "name": "Споты IP65 7W", "lumens": 1950, "is_cove": false },
+        { "name": "Бра Misty 7W", "lumens": 600, "is_cove": false },
+        { "name": "Лента Barisol и полки IP65", "lumens": 6600, "is_cove": true }
+      ]
+    }
+  ]
+}

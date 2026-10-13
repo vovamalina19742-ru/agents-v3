@@ -1,0 +1,11 @@
+{
+  "name": "skill-grounded-extractor",
+  "version": "1.0.0",
+  "description": "Google LangExtract-inspired structured information extraction engine with source grounding and interactive HTML visual audit.",
+  "category": "nlp_extraction",
+  "success_rate": 1.0,
+  "last_verified_date": "2026-09-07",
+  "dependencies": ["python>=3.10"],
+  "entrypoint": "scripts/grounded_extractor.py",
+  "author": "Antigravity Team"
+}
