@@ -1,6 +1,6 @@
 ---
 name: memory-discipline
-description: The session loop that makes agentmemory pay off, recall before starting work, save at decision points, learn from corrections. Use when starting a nontrivial task, after settling a decision or debugging a gotcha, or whenever deciding if something belongs in memory.
+description: Comprehensive internal protocol reference for long-term agentmemory operations. Use only when explicitly structuring persistent memory routines, auditing memory lifecycle, or designing memory storage patterns.
 user-invocable: false
 ---
 
